@@ -1,6 +1,6 @@
 module cache
 
-go 1.14
+go 1.16
 
 require geecache v0.0.0
 

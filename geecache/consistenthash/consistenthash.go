@@ -44,6 +44,7 @@ func (m *Map) Add(keys ...string) {
 
 // Get gets the closest item in the hash to the provided key.
 func (m *Map) Get(key string) string {
+
 	if len(m.keys) == 0 {
 		return ""
 	}
